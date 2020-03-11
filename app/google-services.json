@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "714133446917",
+    "firebase_url": "https://inter-team-project.firebaseio.com",
+    "project_id": "inter-team-project",
+    "storage_bucket": "inter-team-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714133446917:android:6efbd0547fb9fefc13976c",
+        "android_client_info": {
+          "package_name": "com.example.broski"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714133446917-6708i642kbvav401vl6jnvrjp33o099h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABUWgm2yXZdtRo49wQ7GTsV1dakIuriMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "714133446917-6708i642kbvav401vl6jnvrjp33o099h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
