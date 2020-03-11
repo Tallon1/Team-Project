@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterActivity">
+    tools:context=".LoginActivity">
 
     <include
         android:id="@+id/toolbar"
         layout="@layout/bar_layout"/>
-    
+
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="vertical"
@@ -23,20 +23,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Create A New Account"
+            android:text="Login"
             android:textSize="20sp"
-            android:textStyle="bold"
-            />
-
-        <com.rengwuxian.materialedittext.MaterialEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/username"
-            android:layout_marginTop="10dp"
-            app:met_floatingLabel="normal"
-            android:hint="Username"
-            android:textStyle="bold"
-            />
+            android:textStyle="bold"/>
 
         <com.rengwuxian.materialedittext.MaterialEditText
             android:layout_width="match_parent"
@@ -45,9 +34,7 @@
             android:inputType="textEmailAddress"
             android:layout_marginTop="10dp"
             app:met_floatingLabel="normal"
-            android:hint="Email"
-            android:textStyle="bold"
-            />
+            android:hint="Email"/>
 
         <com.rengwuxian.materialedittext.MaterialEditText
             android:layout_width="match_parent"
@@ -56,20 +43,16 @@
             android:inputType="textPassword"
             android:layout_marginTop="10dp"
             app:met_floatingLabel="normal"
-            android:hint="Password"
-            android:textStyle="bold"
-            />
+            android:hint="Password"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Register"
-            android:id="@+id/btn_register"
+            android:text="Login"
+            android:id="@+id/btn_login"
             android:background="@color/colorPrimaryDark"
             android:layout_marginTop="10dp"
-            android:textColor="#fff"
-            android:textStyle="bold"
-            />
+            android:textColor="#fff"/>
 
     </LinearLayout>
 
